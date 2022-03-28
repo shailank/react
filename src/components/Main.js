@@ -36,11 +36,11 @@ right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
 `
-const BLOG = styled(NavLink)`
+const EXPERIENCE = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
 top: 50%;
-right: calc(1rem + 2vw);
+right: calc(0rem + 0vw);
 transform: rotate(90deg) translate(-50%, -50%);
 text-decoration: none;
 z-index:1;
@@ -116,7 +116,7 @@ transition: all 1s ease;
 const DarkDiv = styled.div`
 position: absolute;
 top: 0;
-background-color: #000;
+background-color: #2B2E4A;
 bottom: 0;
 right: 50%;
 width: ${props => props.click ? '50%' : '0%'};
@@ -162,7 +162,7 @@ const Main = () => {
                     Say hi..
                 </motion.h2>
             </Contact>
-            <BLOG to="/blog">
+            <EXPERIENCE to="/experience">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -175,9 +175,9 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    Blog
+                    Experience
                 </motion.h2>
-            </BLOG>
+            </EXPERIENCE>
             <WORK to="/work" click={+click}>
                 <motion.h2
                 initial={{

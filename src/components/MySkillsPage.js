@@ -18,8 +18,6 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
-
 `
 
 const Main = styled.div`
@@ -93,19 +91,22 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+    <Design width={40} height={40} /> Frontend Developer
 </Title>
 <Description>
 I love to create design which speaks, Keep it clean, minimal and simple.
 </Description>
 <Description>
-<strong>I like to Design</strong>
+<strong>I like to Work On</strong>
 <ul>
     <li>
         Web Design
     </li>
     <li>
-        Mobile Apps
+    Multi Device and Browser Support
+    </li>
+    <li>
+    Progressive Web Apps
     </li>
 </ul>
 </Description>
@@ -113,7 +114,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
 <strong>Tools</strong>
 <ul>
     <li>
-       Figma
+       Vscode
     </li>
     
 </ul>
@@ -122,7 +123,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Develope width={40} height={40} /> Full Stack Developer
 </Title>
 <Description>
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
@@ -130,13 +131,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Laravel , Node, Sql, Mongodb, Aws, CI/CD etc.
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github, Postman, Codepen etc.
 </p>
 </Description>
 
